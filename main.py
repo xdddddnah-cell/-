@@ -8,4 +8,5 @@ bot = telebot.TeleBot(TOKEN)
 def echo_all(message):
     bot.reply_to(message, "تم الاستلام!")
 
-bot.polling()
+print("البوت يعمل الآن...")
+bot.infinity_polling()
